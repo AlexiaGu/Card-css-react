@@ -1,0 +1,44 @@
+$font-text: "Helvetica_Neue_Bold";
+$background-color: #F6DFB8;
+$color-text: #271C1E; 
+$color-contour: black;
+$font-weight: bold; 
+
+.myCard {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border: 0.3rem solid $color-contour;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 45%;
+    background-color: $background-color;
+    font-family: $font-text;
+
+    .Plat {
+        color: $color-text;
+        text-align: center;
+        text-decoration-line: underline;
+        font-weight: $font-weight;
+    }   
+    .PlatName {
+        color: $color-text;
+    }
+ }
+
+.myText {
+    margin-left: .3rem;
+    margin-right: .3rem;
+    width: 95%;
+}
+
+.Img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Rate {
+    font-size: 12px;
+    color: $color-text;
+    font-weight: $font-weight;
+}
