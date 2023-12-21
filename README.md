@@ -1,8 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+J'ai utilisé le préprocesseur CSS SASS qui est à mon sens plus simple à utiliser par rapport aux deux autres.
+Ici ma carte :
+<img width="324" alt="image" src="https://github.com/AlexiaGu/Card-css-react/assets/150676364/059a911f-9ca3-4f40-b0d5-5f629a21a6d8">
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
