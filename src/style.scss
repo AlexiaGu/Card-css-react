@@ -5,8 +5,7 @@ $color-contour: black;
 $font-weight: bold; 
 
 .myCard {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    
     border: 0.3rem solid $color-contour;
     border-radius: 8px;
     overflow: hidden;
